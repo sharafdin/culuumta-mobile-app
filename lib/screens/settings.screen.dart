@@ -9,7 +9,7 @@ class SettingsScreen extends StatelessWidget {
       backgroundColor: Colors.black,
       body: Center(
         child: Text(
-          'Exams Screen',
+          'Settings Screen',
           style: TextStyle(fontSize: 50, color: Colors.white),
         ),
       ),
