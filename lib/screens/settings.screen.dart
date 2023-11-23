@@ -7,7 +7,12 @@ class SettingsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor: Colors.black,
-      body: Center(child: Text('Subjects Screen', style: TextStyle(fontSize: 50, color: Colors.white),),),
+      body: Center(
+        child: Text(
+          'Exams Screen',
+          style: TextStyle(fontSize: 50, color: Colors.white),
+        ),
+      ),
     );
   }
 }
